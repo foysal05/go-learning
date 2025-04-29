@@ -1,11 +1,14 @@
 package main
 
-func main(){
+func main() {
 
+	// For Loop => Similar to foreach in PHP
 
-	// Loop 
+	users := []string{"John", "Jane", "Doe"}
+	
 
-	for i := 0; i < 5; i++ {
-		println("Loop iteration:", i)
+	for key, user := range users {
+		println("Key:", key, "User:", user)
 	}
+
 }
